@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/source-sans-pro": "^4.5.4",
     "autoprefixer": "^10.4.4",
     "gatsby": "^4.10.1",
     "gatsby-plugin-gatsby-cloud": "^4.10.0",
