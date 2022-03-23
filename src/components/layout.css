@@ -316,7 +316,6 @@ h5 {
   font-family: "SangBleu Sunrise Trial";
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.85028rem;
   line-height: 1.1;
 }
 h6 {
@@ -329,10 +328,9 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "SangBleu Sunrise Trial";
+  font-family: "Source Sans Pro";
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
   line-height: 1.1;
 }
 hgroup {

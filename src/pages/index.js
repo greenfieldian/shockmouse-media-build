@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import Newsletter from "../components/newsletter"
 import ContactForm from "../components/contactForm"
 import Seo from "../components/seo"
+import { withPrefix } from "gatsby"
 
 import communityIcon from '../images/community-icon.svg'
 import beachHouse from '../images/beach-img.png'
@@ -21,6 +22,22 @@ class IndexPage extends Component {
     return (
       <Layout>
         <Seo title="Home" />
+
+        <section>
+          <div className="h-96 bg-hero-image bg-cover bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+          <div className='px-4 text-center'>
+            <h1 className='text-blue mb-9'>Helping build<br /> one-of-one rental experiences.</h1>
+            <p className='text-slate-grey mb-6'>We’re the marketing agency dedicated exlusively to short term rentals. We partner with you to turn your property/s into one-of-one rental experiences.</p>
+            <div className="mt-4 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+              <button
+                type="submit"
+                className="w-full flex items-center justify-center py-3 px-5 font-semibold text-white bg-blue hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </section>
 
         <section>
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-8 lg:flex lg:items-center">
@@ -43,31 +60,31 @@ class IndexPage extends Component {
               onSwiper={(swiper) => console.log(swiper)}
             >
               <SwiperSlide className='ml-4'>
-                <div className='shadow-blue/[.10] shadow-lg mb-6 mr-1 py-3 px-4 '>
-                  <img src={communityIcon}/>
+                <div className='shadow-blue/[.10] shadow-lg mb-6 mt-3 mr-1 py-6 px-4 '>
+                  <img src={communityIcon} className='mb-3'/>
                   <h3 className='mb-3 text-blue'>Community</h3>
-                  <p className='text-sm text-slate-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  <p className='text-slate-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='shadow-blue/[.10] shadow-lg mb-6 mr-3 py-3 px-3 '>
-                  <img src={communityIcon}/>
-                  <h3 className='mb-3 text-blue'>Community</h3>
-                  <p className='text-sm text-slate-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div className='shadow-blue/[.10] shadow-lg mb-6 mr-3 py-6 px-3 '>
+                  <img src={communityIcon} className='mb-3'/>
+                  <h3 className='mb-3 text-blue'>Innovation</h3>
+                  <p className='text-slate-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='shadow-blue/[.10] shadow-lg mb-6 mr-3 py-3 px-3 '>
-                  <img src={communityIcon}/>
-                  <h3 className='mb-3 text-blue'>Community</h3>
-                  <p className='text-sm text-slate-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div className='shadow-blue/[.10] shadow-lg mb-6 mr-3 py-6 px-3 '>
+                  <img src={communityIcon} className='mb-3'/>
+                  <h3 className='mb-3 text-blue'>Individuality</h3>
+                  <p className='text-slate-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='shadow-blue/[.10] shadow-lg mb-6 mr-3 py-3 px-3 '>
-                  <img src={communityIcon}/>
-                  <h3 className='mb-3 text-blue'>Community</h3>
-                  <p className='text-sm text-slate-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div className='shadow-blue/[.10] shadow-lg mb-6 mr-3 py-6 px-3 '>
+                  <img src={communityIcon} className='mb-3'/>
+                  <h3 className='mb-3 text-blue'>Peace of Mind</h3>
+                  <p className='text-slate-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide></SwiperSlide>
@@ -77,7 +94,7 @@ class IndexPage extends Component {
 
         <section>
           <div>
-            <img src={beachHouse}/>
+            <img src={beachHouse} className='w-full'/>
           </div>
           <div className='bg-light-blue'>
             <div className='px-4 py-6'>

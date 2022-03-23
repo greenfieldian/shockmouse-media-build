@@ -102,7 +102,7 @@ const navigation = {
             <div className="grid grid-cols-2 gap-8 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-bold text-blue tracking-wider uppercase">Solutions</h3>
+                  <h6 className="font-bold text-blue tracking-wider uppercase">Solutions</h6>
                   <ul className="mt-4 space-y-4">
                     {navigation.solutions.map((item) => (
                       <li key={item.name}>
@@ -114,7 +114,7 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-bold text-blue tracking-wider uppercase">Support</h3>
+                  <h6 className="font-bold text-blue tracking-wider uppercase">Support</h6>
                   <ul className="mt-4 space-y-4">
                     {navigation.support.map((item) => (
                       <li key={item.name}>
@@ -128,7 +128,7 @@ const navigation = {
               </div>
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-bold text-blue tracking-wider uppercase">Company</h3>
+                  <h6 className="font-bold text-blue tracking-wider uppercase">Company</h6>
                   <ul className="mt-4 space-y-4">
                     {navigation.company.map((item) => (
                       <li key={item.name}>
@@ -140,7 +140,7 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-bold text-blue tracking-wider uppercase">Legal</h3>
+                  <h6 className="font-bold text-blue tracking-wider uppercase">Legal</h6>
                   <ul className="mt-4 space-y-4">
                     {navigation.legal.map((item) => (
                       <li key={item.name}>
