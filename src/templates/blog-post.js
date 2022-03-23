@@ -15,8 +15,6 @@ class BlogPostTemplate extends Component {
                         <h2 className="pb-5 text-2xl sm:text-5xl sm:leading-tight">{post.title}</h2>
                     </div>
                     <div className="mb-5">
-                        <img src={post.author.avatar.file.url} className="h-12 mx-auto"/>
-                        <p>{post.author.name}</p>
                     </div>
                     <div>
                         <p className="font-light text-sm sm:text-xs">Published {post.postDate}</p>
@@ -30,16 +28,6 @@ class BlogPostTemplate extends Component {
                 <section>
                     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16 font-light">
                     </div>
-                    {/*<div>
-                        <aside>
-                            <div>
-                                <a><FaLinkedin /></a>
-                                <a><FaFacebookF /></a>
-                                <a><FaTwitter /></a>
-                                <a><FaEnvelope /></a>
-                            </div>
-                        </aside>
-                    </div>*/}
                 </section>
             </Layout>
                 </>
