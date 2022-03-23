@@ -13,7 +13,6 @@ class BlogPostTemplate extends Component {
                 <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center pt-12 pb-6">
                     <div className="mb-10">
                         <h2 className="pb-5 text-2xl sm:text-5xl sm:leading-tight">{post.title}</h2>
-                        <p className="font-light text-sm sm:text-xl">{post.subtitle.subtitle}</p>
                     </div>
                     <div className="mb-5">
                         <img src={post.author.avatar.file.url} className="h-12 mx-auto"/>
