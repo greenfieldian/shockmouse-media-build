@@ -32,7 +32,7 @@ class IndexPage extends Component {
               <p className="mt-5 text-slate-grey">Our guiding values are a direct response to what we’ve seen work best in the space. Through sharing our learnings and experience, we hope to strengthen current and future operators.</p>
             </div>
           </div>
-          <div className=''>
+          <div className='pb-12'>
             <div className='pl-4'>
               <p className="font-bold text-accent-blue mb-3">Our values</p>
             </div>

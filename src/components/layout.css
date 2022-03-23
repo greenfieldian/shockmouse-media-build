@@ -154,6 +154,14 @@ hr {
   border: none;
   height: 1px;
 }
+input {
+  border-radius: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
 button,
 input,
 optgroup,
